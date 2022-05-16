@@ -27,8 +27,6 @@ IF %result% == true (
     echo 維持原來備份
 )
 :_DONE
-LGPO.exe /g %CD%\settings /q
 echo:
-gpupdate
-echo 已完成GCB設定
+echo 已備分GCB設定
 pause
